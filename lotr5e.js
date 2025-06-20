@@ -62,23 +62,23 @@ Hooks.on('init', async function () {
 		cun: "LOTR.ArmorPropertiesCun",
 		rei: "LOTR.ArmorPropertiesRie"
 	};
-	CONFIG.DND5E.currencies = {
-	gp: {
-		label: "LOTR.CoinsGP",
-		abbreviation: "LOTR.CoinsAbbrGP",
-		conversion: 1
-	},
-	sp: {
-		label: "LOTR.CoinsSP",
-		abbreviation: "LOTR.CoinsAbbrSP",
-		conversion: 10
-	},
-	cp: {
-		label: "LOTR.CoinsCC",
-		abbreviation: "LOTR.CoinsAbbrCC",
-		conversion: 100
-	}
-	};
+//	CONFIG.DND5E.currencies = {
+//	gp: {
+//		label: "LOTR.CoinsGP",
+//		abbreviation: "LOTR.CoinsAbbrGP",
+//		conversion: 1
+//	},
+//	sp: {
+//		label: "LOTR.CoinsSP",
+//		abbreviation: "LOTR.CoinsAbbrSP",
+//		conversion: 10
+//	},
+//	cp: {
+//		label: "LOTR.CoinsCC",
+//		abbreviation: "LOTR.CoinsAbbrCC",
+//		conversion: 100
+//	}
+//	};
 	Object.assign(CONFIG.DND5E.toolTypes, {
 		pipe: "LOTR.ToolPipeProf"
 	});
@@ -88,10 +88,10 @@ Hooks.on('init', async function () {
 	});
 
 	delete CONFIG.DND5E.skills.arc;
-	delete CONFIG.DND5E.skills.his;
-	delete CONFIG.DND5E.skills.med;
+//	delete CONFIG.DND5E.skills.his;
+//	delete CONFIG.DND5E.skills.med;
 	delete CONFIG.DND5E.skills.rel;
-	delete CONFIG.DND5E.skills.sur;
+//	delete CONFIG.DND5E.skills.sur;
 
 	Object.assign(CONFIG.DND5E.skills, {
 		ins: { label: "LOTR.SkillIns", ability: "wis" },
